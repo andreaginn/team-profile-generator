@@ -139,10 +139,10 @@ function buildTeam() {
         fs.appendFileSync("./dist/team.html", `
             <div class="card" style="width: 18rem;">
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">${emptyArray[i].name}</li>
-          <li class="list-group-item">${emptyArray[i].email}</li>
-          <li class="list-group-item">${emptyArray[i].id}</li>
-          <li class="list-group-item">${emptyArray[i].getRole()}</li>
+          <li class="list-group-item">Name: ${emptyArray[i].name}</li>
+          <li class="list-group-item">Email: ${emptyArray[i].email}</li>
+          <li class="list-group-item">Id: ${emptyArray[i].id}</li>
+          <li class="list-group-item">Role: ${emptyArray[i].getRole()}</li>
           <li class="list-group-item">${emptyArray[i].special}</li>
         </ul>
       </div>
